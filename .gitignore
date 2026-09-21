@@ -1,0 +1,5 @@
+ktx.log
+_screen*.png
+__pycache__/
+*.pyc
+.DS_Store
