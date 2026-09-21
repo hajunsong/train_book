@@ -1,0 +1,23 @@
+# 이 프로젝트의 Python 코드는 표준 라이브러리만 사용합니다.
+# pip 패키지 설치는 필요 없습니다.
+#
+# 다음 PC에서 필요한 런타임 (Windows)
+#
+# 1) Python 3.10 이상
+#    https://www.python.org/downloads/
+#
+# 2) Android platform-tools (adb)
+#    PATH에 adb가 잡혀 있어야 함
+#    https://developer.android.com/tools/releases/platform-tools
+#
+# 3) Windows 한국어 OCR (WinRT)
+#    설정 > 시간 및 언어 > 언어 > 한국어 > 광학 문자 인식
+#    또는 관리자 PowerShell:
+#    Add-WindowsCapability -Online -Name Language.OCR~~~ko-KR~0.0.1.0
+#
+# 4) clone 후 book.py 상단 개인정보 입력
+#    CARD_PIN, AUTH_NO, PHONE_MID, PHONE_END
+#
+# 실행 예
+#    python -u book.py --only A15
+#    python -u book.py --only A15 --at 04:00
